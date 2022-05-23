@@ -9,15 +9,17 @@ h1{
 }
 body{
     text-align: center;
-    background-color: aquamarine;
+    background-color: azure;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container{
     display: grid;
     grid-template-columns: auto auto auto;
-    width: 40%;
+    width: 30%;
     border: 1px solid;
     height: 60vh;
-    margin: auto;
+    margin: 10px auto;
+    
 }
 .container-item{
     display: flex;
@@ -27,8 +29,9 @@ body{
     border: 2px solid;
     align-items: center;
     font-size: 4rem;
+    
 }
-.main{
+#main{
     padding: 1rem;
 }
 .name{
@@ -49,5 +52,13 @@ button{
     margin-left: 50px;
 }
 #grid-table{
+    display: none;
+}
+#playing-player{
+    font-size: large;
+    padding: 20px;
+    background-color:lightskyblue;
+    width: 30%;
+    margin: auto;
     
 }

@@ -9,13 +9,13 @@
 </head>
 <body>
     <h1>Tic Tac Toe</h1>
-    <div class="main">
+    <div id ="main">
         <label for="player1">Player 1:</label>
         <input type="text" id="player1" class="name" placeholder="Name1">
         <br>
         <label for="player2">Player 2:</label>
         <input type="text" id="player2" class="name"  placeholder="Name2"><br>
-        <button class="btn ">Play</button>
+        <button class="btn" onclick="playGame()">Play</button>
     </div>
     
     <div id = "grid-table">
@@ -23,15 +23,15 @@
             <h4>someone is playing</h4>
         </div>
         <div class="container" id="grid">
-            <div class="container-item" id = "1" onclick="onClickEvent(0)" ></div>
-            <div class="container-item" id = "2" onclick="onClickEvent(1)" ></div>
-            <div class="container-item" id = "3" onclick="onClickEvent(2)" ></div>
-            <div class="container-item" id = "4" onclick="onClickEvent(3)" ></div>
-            <div class="container-item" id = "5" onclick="onClickEvent(4)" ></div>
-            <div class="container-item" id = "6" onclick="onClickEvent(5)" ></div>
-            <div class="container-item" id = "7" onclick="onClickEvent(6)" ></div>
-            <div class="container-item" id = "8" onclick="onClickEvent(7)" ></div>
-            <div class="container-item" id = "9" onclick="onClickEvent(8)" ></div>
+            <div class="container-item"  onclick="onClickEvent(0)" ></div>
+            <div class="container-item" onclick="onClickEvent(1)" ></div>
+            <div class="container-item" onclick="onClickEvent(2)" ></div>
+            <div class="container-item" onclick="onClickEvent(3)" ></div>
+            <div class="container-item" onclick="onClickEvent(4)" ></div>
+            <div class="container-item" onclick="onClickEvent(5)" ></div>
+            <div class="container-item" onclick="onClickEvent(6)" ></div>
+            <div class="container-item" onclick="onClickEvent(7)" ></div>
+            <div class="container-item" onclick="onClickEvent(8)" ></div>
         </div>
 
     </div>
