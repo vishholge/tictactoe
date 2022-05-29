@@ -83,4 +83,9 @@ const checkWinner = () =>{
         
     }
 }
+const restart = () => {
+
+    main.style.display = "block";
+    gridTable.style.display = "none";
+}
 

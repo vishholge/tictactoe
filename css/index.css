@@ -51,6 +51,9 @@ button{
     cursor: pointer;
     margin-left: 50px;
 }
+button:hover{
+    background-color: chocolate;
+}
 #grid-table{
     display: none;
 }
